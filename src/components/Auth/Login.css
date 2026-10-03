@@ -6,7 +6,8 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.login-page{
+.login-page,
+.signUp-page{
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -23,16 +24,20 @@ body{
     max-width: 420px;
     width: 100%;
 }
-.login-container h1{
+.login-container h1,
+.signUp-container h1{
     font-size: 30px;
 }
-.login-container p{
+.login-container p,
+.signUp-container p{
     color: #6b6a6a;
 }
-.login-container .mainP{
+.login-container .mainP,
+.signUp-container .mainP{
     margin: 0px 0px 25px 0;
 }
-.input-group{
+.input-group,
+.signUpInput-group{
     margin-bottom: 20px;
 }
 .input-group label{
@@ -45,16 +50,19 @@ body{
     border: 1px solid #e4e0e0ee;
     border-radius: 4px;
 }
-.login-options{
+.login-options,
+.agree-option{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
-.login-options label input{
+.login-options label input,
+.agree-option label input{
     margin-right: 10px;
 }
-.login-options a, .signUp-option a{
+.login-options a, 
+.signUp-option a{
     text-decoration: none;
     color: #FF8682;
 }
@@ -66,7 +74,8 @@ body{
     border-bottom: 1px solid #e4e0e0ee;
     padding: 10px 0;
 }
-.login-container .login-btn{
+.login-container .btn,
+.signUp-container .btn{
     width: 100%;
     display: block;
     justify-content: center;
@@ -79,7 +88,8 @@ body{
     cursor: pointer;
     font-family: inherit;
 }
-.other-login-option p{
+.other-login-option p,
+.other-signUp-option p{
     text-align: center;
     margin: 10px 0;
 }
@@ -97,3 +107,31 @@ body{
     font-size: 20px;
     color: #008ECC;
 }
+.signUp-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid #e4e0e0ee;
+    border-radius: 4px;
+    padding: 20px 30px;
+    margin: 30px 0;
+    max-width: 600px;
+    width: 100%;
+}
+.signUpInput-group input{
+    width: 100%;
+    padding: 8px 16px;
+    border: 1px solid #e4e0e0ee;
+    border-radius: 4px;
+}
+.signUp-input{
+    display: flex;
+    gap: 16px;
+    text-align: center;
+}
+.email-phone{
+    display: flex;
+    gap: 16px;
+    text-align: center;
+}
+

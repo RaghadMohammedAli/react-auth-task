@@ -24,7 +24,7 @@ const LogInPage = () => {
                         <a href="#">Forgot Password</a>
                     </div>
 
-                    <button type="submit" className="login-btn">Login</button>
+                    <button type="submit" className="btn">Login</button>
                 </form>
 
                 <div className="signUp-option">
